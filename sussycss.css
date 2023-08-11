@@ -1,0 +1,227 @@
+html {
+    background-color: black;
+    opacity: 0.9;
+}
+
+body {
+    margin: 0;
+    overscroll-behavior-y: none;
+}
+
+img {
+    transition: opacity 0.2s;
+}
+
+p {
+    transition: opacity 0.2s;
+}
+
+.header {
+    position: fixed;
+    height: 12.2vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.tab-flex {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.tab {
+    color: white;
+    font-size: 25px;
+    font-family: DM Sans, Arial;;
+    text-align: center;
+    transition: opacity 0.2s;
+}
+
+.tab:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.play-amogus {
+    height: 87.8vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-amogus-ocean-picture {
+    position: fixed;
+    opacity: 0.4;
+    z-index: -999;
+    object-position: right;
+}
+
+.play-amogus-paragraph {
+    color: white;
+    font-family: DM Sans, Arial;;
+    font-size: 75px;
+    text-align: center;
+}
+
+.play-amogus-more-info {
+    background-color: lightblue;
+    z-index: 0;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.play-amogus-paragraph-two {
+    font-family: DM Sans, Arial;
+    text-align: center;
+    font-size: 30px;
+}
+
+.tabtwo-bottom {
+    background-color: lightblue;
+}
+
+.tabtwo-pone {
+    font-size: 18px;
+    font-family: DM Sans, Arial;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.info-image {
+    width: 40vw;
+    height: 400px;
+    background-color: red;
+}
+
+.pic {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.info-column {
+    width: 40vw;
+    height: 400px;
+    background-color: lightblue;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+.info-title {
+    font-family: DM Sans, Arial;
+}
+
+.info-para {
+    font-family: DM Sans, Arial;
+}
+
+.tab-three-top {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.tab-three-top-text {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-family: DM Sans, Arial;
+    color: black;
+}
+
+.tab-three-container {
+    background-color: lightblue;
+    width: 100%;
+    height: 133vh;
+    margin-top: 12.2vh;
+}
+
+.impact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.img-container {
+    height: 21vw;
+    width: 21vw;
+    background-color: lightblue;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+    padding-top: 20px;
+
+}
+
+.img-container:hover img {
+    opacity: 0.3;
+}
+
+.img-container:hover p {
+    opacity: 1;
+}
+
+.tab-three-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.tab-three-text {
+    font-family: DM Sans, Arial;
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+}
+
+.tabfour-top {
+    background-color: lightblue;
+    padding-top: 12.2vh;
+}
+
+.tabfour-bottom {
+    height: 87.8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabfour-pic {
+    position: fixed;
+    opacity: 0.2;
+    z-index: -999;
+    object-fit: cover;
+    object-position: right;
+    vertical-align: top;
+    bottom: 0;
+}
+
+.tabfour-para {
+    color: white;
+    font-family: DM Sans, Arial;;
+    font-size: 75px;
+    text-align: center;
+}
